@@ -1,0 +1,17 @@
+{
+  "name": "@takingdoms/lib-3do",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Celso L",
+  "repository": "takingdoms/lib-3do",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare" : "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
